@@ -4,8 +4,7 @@
 
 # Desafio em React
 Neste projeto, foi construído uma aplicação em React para cadastrar e visualizar os usuários já cadastrados.
-<br/>
-<br/>
+
 <a href="https://www.w3schools.com">React</a>
 <br/>
 <a href="https://www.typescriptlang.org/">TypeScript</a>
@@ -13,7 +12,6 @@ Neste projeto, foi construído uma aplicação em React para cadastrar e visuali
 <a href="https://tailwindcss.com/">Tailwind CSS</a>
 <br/>
 <a href="https://daisyui.com/">Daisy UI</a>
-<br/>
 <br/>
 
   <a>
@@ -31,12 +29,12 @@ Neste projeto, foi construído uma aplicação em React para cadastrar e visuali
   <a>
     <img src="https://img.shields.io/static/v1?label=npm&message=v8.11.0&&color=007db9&style=flat-square"/>
   </a>
-
+<br/>
 
   ![](src/assets/example_screenshot.png)
 </div>
 
-## Instalação
+## Iniciando a aplicação
 * **Verifique as versões**:
 ```sh
 tsc -v
@@ -62,4 +60,17 @@ npm install
 * **Inicie um servidor local**:
 ```sh
 yarn start
+```
+
+## Acessando a aplicação
+* **Para acessar a aplicação como administrador**:
+```
+CPF: 12312312387
+Senha: admin
+```
+
+* **Para acessar a aplicação como usuário comum**:
+```
+CPF: 12033382443
+Senha: comum
 ```
