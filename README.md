@@ -66,11 +66,11 @@ yarn start
 * **Para acessar a aplicação como administrador**:
 ```
 CPF: 12312312387
-Senha: admin
+Senha: 123456
 ```
 
 * **Para acessar a aplicação como usuário comum**:
 ```
-CPF: 12033382443
-Senha: comum
+CPF: 12312312388
+Senha: 123456
 ```
