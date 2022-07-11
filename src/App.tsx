@@ -1,8 +1,9 @@
 import React, { ReactNode } from 'react';
 import './App.css';
 import { NavBar } from './components/navbar/navbar';
-import { Lista } from './components/lista/lista';
-import { Login } from './pages/login/login';
+import { EditarDados } from './components/editar-dados/editar';
+import Interno from './pages/interno/interno';
+import Login from './pages/login/login';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 
@@ -16,10 +17,12 @@ export function App() {
 
     <BrowserRouter>
       <div>
-        <NavBar />
+        <NavBar titulo={ '' }/>
         <Routes>
-          <Route path="/" element={<Navigate to={'/login'} />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={ <Navigate to={ '/login' }/> }/>
+          <Route path="/login" element={ <Login /> }/>
+          <Route path="/interno" element={ <Interno /> }/>
+          <Route path="/editar-dados" element={ <EditarDados /> }/>
         </Routes>
       </div>
     </BrowserRouter>
