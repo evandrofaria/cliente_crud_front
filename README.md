@@ -1,8 +1,6 @@
 <div align="center">
 <br/>
-  <img alt="react simple icons" src="https://api.iconify.design/logos/react.svg" width="150" />
 
-# Desafio em React
 Neste projeto, foi construído uma aplicação em React para cadastrar e visualizar os usuários já cadastrados.
 
 <a href="https://www.w3schools.com">React</a>
@@ -31,7 +29,6 @@ Neste projeto, foi construído uma aplicação em React para cadastrar e visuali
   </a>
 <br/>
 
-  ![](src/assets/example_screenshot.png)
 </div>
 
 ## Iniciando a aplicação
